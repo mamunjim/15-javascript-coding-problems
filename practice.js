@@ -1,12 +1,16 @@
-function total(students){
-    let sum=0;
-    for(i=0;i<students.length;i++){
-        var elements=students[i];
-        sum=sum+elements;
-    }
-    return sum;
+let prod = 1;
+
+for(let i = 1; i <= 10; i++)
+{
+    prod =prod* i;
 }
 
-var students=[29,50,60,38,10,9,38,85,24,67,84,55,25];
-console.log(total(students));
+console.log(prod);
 
+// var number=[1,2,3,4,5,6,7,8,9,10]
+// var multiply=1;
+// for(i=1;i<number.length;i++){
+//     element=number[i];
+//     multiply=multiply*element;
+// }
+// console.log(multiply);
